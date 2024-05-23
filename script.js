@@ -21,3 +21,4 @@ page2.addEventListener("mouseenter",(e)=>{
 page2.addEventListener("mouseleave",(e)=>{
     cursor.style.display = "block"
 })
+console.log("check");
