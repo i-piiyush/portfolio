@@ -3,22 +3,9 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-
-
-let cursor = document.querySelector(".cursor");
-let page2 = document.querySelector(".page2");
-window.addEventListener("mousemove",(e)=>{
-    let x = e.clientX;
-    let y = e.clientY;
-    cursor.style.top = y + "px"
-    cursor.style.left = x +"px"
-   
-    
+gsap.from(".upper .right a",{
+    opacity:0,
+    y: 40,
+    delay:.2,
+    stagger:0.2
 })
-page2.addEventListener("mouseenter",(e)=>{
-    cursor.style.display = "none"
-})
-page2.addEventListener("mouseleave",(e)=>{
-    cursor.style.display = "block"
-})
-console.log("check");
