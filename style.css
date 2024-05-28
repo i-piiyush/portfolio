@@ -242,7 +242,7 @@ main{
 .page3{
   height: 100vh;
   width: 100%;
-  background-color: crimson;
+  
   
 }
 .page3 .head{
@@ -261,10 +261,17 @@ main{
   align-self: center;
   padding: 5% 0;
 }
+.page3 .wrapper{
+
+height: 70%;
+width: 100%;
+display: flex;
+justify-content: center;
+}
 .page3 .left{
   
-  width: 50%;
-  height: 70%;
+  width: 40%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,8 +283,173 @@ main{
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.508);
   pointer-events: none;
 }
-.page3 .right{
-  width: 50%;
-  background-color: darkcyan;
-  height: 70%;
+.page3 .right-pg3{
+  width: 40%;
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  
 }
+.abt1{
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+.abt1 p{
+  color: white;
+  font-size:16px;
+  font-weight: 200;
+  
+}
+.abt1 h3{
+  font-size: 24px;
+ color: white;
+ font-weight: 400;
+}
+.page4{
+  height: 80vh;
+  width: 100%;
+ 
+}
+.page4 h1{
+  font-size: 7vw;
+  font-family: 'OPTILatin-BoldCondensed';
+  text-transform:uppercase;
+  color: white;
+
+
+}
+.page4 .topC{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.page4 .bottomC{
+  height: 65%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+
+}
+.bottomC div{
+  height: 90%;
+  width: 30%;
+}
+.social{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  
+}
+.cbox{
+  
+}
+.social #scale{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  pointer-events: none;
+}
+
+.social #scale p{
+  font-size: 26px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 200;
+ text-decoration: underline;
+
+}
+.social #scale h5{
+  font-size: 23px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 400;
+  
+
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5% 0;
+}
+  .contact h5{
+    font-size: 23px;
+    color: white;
+    font-weight: 400;
+  } 
+  .cbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  input{
+    width: 400px;
+    height: 100px;
+    padding: 5%;
+    outline: none;
+    border-radius: 13px 13px 0 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.21);
+    color: white;
+    font-weight: 200;
+  }
+  button{
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #BFBFBF;
+    border: none;
+    font-size: 18px;
+  }
+  .cbox p{
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .cbox p span{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .line{
+    height: 1px;
+    width: 100%;
+    
+    
+    background: linear-gradient(90deg, rgba(88,62,188,0) 0%, rgba(255, 255, 255, 0.502) 48%, rgba(0,0,0,0) 100%)
+  }
+  footer{
+    
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer a{
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 2px;
+    
+  }
+  footer a:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.721);
+    
+    transition: all 1s ease;
+  }
