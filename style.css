@@ -458,7 +458,7 @@ justify-content: center;
   }
   @media screen and (max-width: 1024px) {
     input{
-        width: 300px;
+        width:33vw;
         height: 100px;
         padding: 5%;
         outline: none;
@@ -469,11 +469,35 @@ justify-content: center;
         font-weight: 200;
       }
       button{
-        width: 300px;
+        width: 33vw;
         height: 50px;
         cursor: pointer;
         background-color: #BFBFBF;
         border: none;
         font-size: 18px;
+      }
+      .social #scale p{
+        font-size: 3vw;
+
+      }
+      .social #scale h5{
+        font-size: 2vw;
+      }
+      .contact h5{
+        font-size: 2vw;
+        color: white;
+        font-weight: 400;
+      } 
+      .cbox p{
+        color: white;
+        font-weight: 200;
+        font-size: 10px;
+        margin-top: 5px;
+      }
+      .abt1 p{
+        color: white;
+        font-size: 1.5vw;
+        font-weight: 200;
+        
       }
 }
