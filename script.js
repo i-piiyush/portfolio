@@ -19,7 +19,7 @@ function sendMessage() {
     // Encode the message for URL
     const encodedMessage = encodeURIComponent(message);
 
-    const phoneNumber = '+9194278260725';
+    const phoneNumber = '+919478260725';
 
     // Construct the WhatsApp URL
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
