@@ -28,3 +28,9 @@ function sendMessage() {
     window.open(whatsappURL, '_blank');
 }
 btn.addEventListener("click",sendMessage)
+document.getElementById("sendEmailButton").addEventListener("click", function() {
+    var email = "piyushchhabra3578@gmail.com"; // Replace with your email
+    var mailto_link = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(email);
+    
+    window.open(mailto_link, '_blank');
+});

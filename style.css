@@ -24,6 +24,7 @@ body {
 body {
   background-color: black;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 main {
 }
@@ -430,6 +431,10 @@ footer a:hover {
 
   transition: all 1s ease;
 }
+.part3 .box1 p a{
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 1024px) {
   input {
     width: 33vw;
@@ -483,6 +488,12 @@ footer a:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .part3 .box1 p{
+    text-decoration: underline;
+  }
+  .part3 .box1 p::before {
+   display: none;
+  }
   .page3 .wrapper {
     height: 40%;
     width: 100%;
